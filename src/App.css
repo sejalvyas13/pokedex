@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  font-family: PokemonSolid;
+
 }
 
 .App-logo {
@@ -10,18 +12,20 @@
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
+    min-height: 10vh;
   }
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  font-family: PokemonSolid;
+  background-color: white;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(12, 1, 1);
 }
 
 .App-link {
@@ -36,3 +40,68 @@
     transform: rotate(360deg);
   }
 }
+
+.pagination > a{
+  border-color: black;
+  margin : 5px;
+}
+
+.App-Button{
+    text-decoration: none;
+    margin: 5px;
+    border: none;
+    background: #ca0808;
+    color: #ffffff !important;
+    font-weight: 100;
+    padding: 20px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+    font-family: PokemonHollow;
+}
+
+.App-button-body{
+  text-decoration: none;
+  margin: 10px;
+  border: none;
+  background: #f7f4f4;
+  color: #ca0808 !important;
+  font-weight: bolder;
+  padding: 20px;
+  text-transform: uppercase;
+  border-radius: 6px;
+  display: inline-block;
+  transition: all 0.3s ease 0s;
+  font-family: PokemonHollow;
+}
+
+.App-button-pagination{
+  text-decoration: none;
+  margin: 10px;
+  border: none;
+  background: #ca0808;
+  color: #ffffff !important;
+  font-weight: 100;
+  width: 150px;
+  text-transform: uppercase;
+  border-radius: 6px;
+  display: inline-block;
+  transition: all 0.3s ease 0s;
+  font-family: PokemonSolid;
+}
+
+.App-band{
+  background-color: #ca0808 ;
+  font-family: PokemonSolid;
+}
+
+.App-font-solid{
+    font-family: PokemonSolid;
+}
+
+.App-font-hollow{
+  font-family: PokemonHollow;
+}
+
+
